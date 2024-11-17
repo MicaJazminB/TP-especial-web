@@ -4,6 +4,9 @@ BREIJO, MICAELA JAZMIN
 
 TEMA: FOTOGRAFIA
 
-DESCRIPCION: LA APLICACION ESTA DESTINADA PARA USUARIOS QUE QUIERAN RESERVAR SESIONES FOTOGRAFICAS DE UN RECONOCIDO FOTOGRAFO EN DIFERENTES AMBIENTES, DEFINIENDO UNA DETERMINADA FECHA. EL SITIO POSEE ACCESO PUBLICO.
+DESCRIPCION: Este proyecto consiste en un sitio web para un fotografo que ofrece distintos tipos de sesiones fotograficas, de acceso publico, donde usuarios pueden realizar sus reservas a traves del mismo.
 
-LA BASE DE DATOS ESTA CREADA A PARTIR DE TRES TABLAS DEFINIDADS POR LOS USUARIOS Y SU INFORMACION PERSONAL, EL TIPO DE SESIONES, QUE CONTIENE LA INFO SOBRE EL VALOR Y PARA CADA TIPO DE SESION, Y LAS RESERVAS, EN LA CUAL SE REGISTRA LA FECHA DESTINADA A REALIZAR LA SESION, CANTIDAD Y NOMBRE DE USUARIO, EL CUAL FUNCIONA COMO LLAVE FORANEA EN REFERENCIA AL IDENTIFICADOR DEL USUARIO.
+En el modelo de datos se encuentran las siguientes tablas:
+Usuarios: almacena la informacion de los usuarios que quieran realizarse una o mas sesiones fotograficas, tal como nombre, telefono y mail.
+Tipos de sesiones: almacena los 3 tipos de sesiones disponibles con sus respectivos valores.
+Reservas: almacena la informacion sobre la fecha elegida para la sesion, cantidad y tipo.
